@@ -17,5 +17,13 @@ namespace BattleshipStateTracker.Api.Controllers
         {
             return true;
         }
+
+
+        [HttpGet]
+        [Route("ping")]
+        public bool Ping1()
+        {
+            return true;
+        }
     }
 }
